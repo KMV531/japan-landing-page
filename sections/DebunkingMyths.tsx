@@ -64,9 +64,14 @@ const items = [
 const DebunkingMyths = () => {
   return (
     <main className="my-40 mask-[linear-gradient(to_bottom,transparent,black_20%,black_75%,transparent)]">
-      <div style={{ height: "100vh", position: "relative" }}>
-        <InfiniteMenu items={items} scale={1} />
-      </div>
+      <section>
+        <h1 className="font-bold text-2xl md:text-4xl text-center pt-36">
+          DEBUGGING THE CLICHÉS <br />— Kimari monku o debaggu suru
+        </h1>
+        <div style={{ height: "100vh", position: "relative" }}>
+          <InfiniteMenu items={items} scale={1} />
+        </div>
+      </section>
     </main>
   );
 };
