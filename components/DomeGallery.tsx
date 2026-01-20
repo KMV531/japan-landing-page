@@ -93,6 +93,66 @@ const DEFAULT_IMAGES: ImageItem[] = [
     src: "/images/gallery-images/gallery-15.jpg",
     alt: "Japan Gallery Image",
   },
+  {
+    src: "/images/gallery-images/gallery-16.webp",
+    alt: "Japan Gallery Image",
+  },
+  {
+    src: "/images/gallery-images/gallery-17.webp",
+    alt: "Japan Gallery Image",
+  },
+  {
+    src: "/images/gallery-images/gallery-18.webp",
+    alt: "Japan Gallery Image",
+  },
+  {
+    src: "/images/gallery-images/gallery-19.webp",
+    alt: "Japan Gallery Image",
+  },
+  {
+    src: "/images/gallery-images/gallery-20.jpg",
+    alt: "Japan Gallery Image",
+  },
+  {
+    src: "/images/gallery-images/gallery-21.png",
+    alt: "Japan Gallery Image",
+  },
+  {
+    src: "/images/gallery-images/gallery-22.jpg",
+    alt: "Japan Gallery Image",
+  },
+  {
+    src: "/images/gallery-images/gallery-23.jpg",
+    alt: "Japan Gallery Image",
+  },
+  {
+    src: "/images/gallery-images/gallery-24.avif",
+    alt: "Japan Gallery Image",
+  },
+  {
+    src: "/images/gallery-images/gallery-25.jpg",
+    alt: "Japan Gallery Image",
+  },
+  {
+    src: "/images/gallery-images/gallery-26.webp",
+    alt: "Japan Gallery Image",
+  },
+  {
+    src: "/images/gallery-images/gallery-27.webp",
+    alt: "Japan Gallery Image",
+  },
+  {
+    src: "/images/gallery-images/gallery-28.jpg",
+    alt: "Japan Gallery Image",
+  },
+  {
+    src: "/images/gallery-images/gallery-29.jpg",
+    alt: "Japan Gallery Image",
+  },
+  {
+    src: "/images/gallery-images/gallery-30.jpg",
+    alt: "Japan Gallery Image",
+  },
 ];
 
 const DEFAULTS = {
@@ -193,7 +253,7 @@ export default function DomeGallery({
   enlargeTransitionMs = DEFAULTS.enlargeTransitionMs,
   segments = DEFAULTS.segments,
   dragDampening = 2,
-  openedImageWidth = "400px",
+  openedImageWidth = "600px",
   openedImageHeight = "400px",
   imageBorderRadius = "30px",
   openedImageBorderRadius = "30px",
@@ -962,14 +1022,14 @@ export default function DomeGallery({
           </div>
 
           <div
-            className="absolute inset-0 m-auto z-[3] pointer-events-none"
+            className="absolute inset-0 m-auto z-3 pointer-events-none"
             style={{
               backgroundImage: `radial-gradient(rgba(235, 235, 235, 0) 65%, var(--overlay-blur-color, ${overlayBlurColor}) 100%)`,
             }}
           />
 
           <div
-            className="absolute inset-0 m-auto z-[3] pointer-events-none"
+            className="absolute inset-0 m-auto z-3 pointer-events-none"
             style={{
               WebkitMaskImage: `radial-gradient(rgba(235, 235, 235, 0) 70%, var(--overlay-blur-color, ${overlayBlurColor}) 90%)`,
               maskImage: `radial-gradient(rgba(235, 235, 235, 0) 70%, var(--overlay-blur-color, ${overlayBlurColor}) 90%)`,
@@ -978,13 +1038,13 @@ export default function DomeGallery({
           />
 
           <div
-            className="absolute left-0 right-0 top-0 h-[120px] z-[5] pointer-events-none rotate-180"
+            className="absolute left-0 right-0 top-0 h-30 z-5 pointer-events-none rotate-180"
             style={{
               background: `linear-gradient(to bottom, transparent, var(--overlay-blur-color, ${overlayBlurColor}))`,
             }}
           />
           <div
-            className="absolute left-0 right-0 bottom-0 h-[120px] z-[5] pointer-events-none"
+            className="absolute left-0 right-0 bottom-0 h-30 z-5 pointer-events-none"
             style={{
               background: `linear-gradient(to bottom, transparent, var(--overlay-blur-color, ${overlayBlurColor}))`,
             }}
