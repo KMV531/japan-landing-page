@@ -26,7 +26,7 @@ const places = [
 const HeroSection = () => {
   return (
     <main
-      className="relative h-181.25 bg-cover bg-center mask-[linear-gradient(to_bottom,transparent,black_0%,black_60%,transparent)]"
+      className="relative h-181.25 bg-cover bg-center mask-[linear-gradient(to_bottom,transparent,black_0%,black_75%,transparent)]"
       style={{
         backgroundImage: "url('/images/japan-hero-image.png')",
       }}
