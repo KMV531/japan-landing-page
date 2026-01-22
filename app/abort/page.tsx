@@ -30,22 +30,26 @@ const AbortScreen = () => {
       </div>
       <div className="flex flex-col items-center justify-center gap-2 text-center">
         <h2 className="bg-yellow-400 font-black uppercase skew-x-[-10deg] mb-4 text-4xl">
-          ABORT MISSION!
+          {/* ABORT MISSION! */}
+          MISSION ANNULÉE !
         </h2>
 
         <p className="text-white font-mono text-xl max-w-md">
-          ERROR 403: SCREEN TOO SMALL, DEVELOPER&apos;S EGO TOO BIG.
+          {/* ERROR 403: SCREEN TOO SMALL, DEVELOPER&apos;S EGO TOO BIG. */}
+          ERREUR 403 : ÉCRAN TROP PETIT, ÉGO DU DÉVELOPPEUR TROP GRAND.
         </p>
 
         <span className="mt-5 mb-4 text-white/50 italic max-w-xs text-lg capitalize">
-          (This experience was built for a PC. Trust me.)
+          {/* (This experience was built for a PC. Trust me.) */}
+          (Cette expérience a été conçue pour un PC. Croyez-moi.)
         </span>
 
         <button
           onClick={handleClick}
           className="cursor-pointer font-semibold text-xl border border-gray-400 p-2 rounded-md shadow"
         >
-          I&apos;m on a PC
+          {/* I&apos;m on a PC */}
+          Je suis sur un PC
         </button>
       </div>
     </main>

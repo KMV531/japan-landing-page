@@ -34,23 +34,29 @@ const SuspiciousPage = () => {
       </div>
       <div className="flex flex-col items-center justify-center gap-2 text-center">
         <h2 className="bg-yellow-400 font-black uppercase skew-x-[-10deg] mb-4 text-4xl">
-          HMMM... SUSPICIOUS!
+          {/* HMMM... SUSPICIOUS! */}
+          HMM... SUSPECT !
         </h2>
 
         <p className="text-white font-mono text-xl max-w-md">
-          KNOW YOU ARE NOT ON A PC... BUT I CAN&apos;T PROVE IT!
+          {/* I KNOW YOU ARE NOT ON A PC... BUT I CAN&apos;T PROVE IT! */}
+          JE SAIS QUE VOUS N&apos;ÊTES PAS SUR UN PC... MAIS JE NE PEUX PAS LE
+          PROUVER !
         </p>
 
         <span className="mt-5 mb-4 text-white/50 italic text-lg capitalize max-w-md">
-          (I&apos;ll let you in, but you&apos;re only seeing 20% of my power.
-          Get a PC for the full flex.)
+          {/* (I&apos;ll let you in, but you&apos;re only seeing 20% of my power.
+          Get a PC for the full flex.) */}
+          (Je vais vous laisser entrer, mais vous ne verrez que 20% de ma
+          puissance. Prenez un PC pour la démo complète.)
         </span>
 
         <button
           onClick={handleClick}
           className="cursor-pointer font-semibold text-xl border border-gray-400 p-2 rounded-md shadow"
         >
-          Let me in anyway
+          {/* Let me in anyway */}
+          Laissez-moi quand même entrer
         </button>
       </div>
     </main>
