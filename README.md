@@ -1,6 +1,6 @@
 # NIHON | 日本 - Elite Digital Experience
 
-[![Live Demo](https://img.shields.io/badge/View_Live-Vercel-%23007acc?style=for-the-badge&logo=vercel)](YOUR_VERCEL_URL)
+[![Live Demo](https://img.shields.io/badge/View_Live-Vercel-%23007acc?style=for-the-badge&logo=vercel)](https://nihon-alpha.vercel.app)
 [![GitHub](https://img.shields.io/badge/Source_Code-GitHub-black?style=for-the-badge&logo=github)](https://github.com/KMV531/nihon.git)
 
 ⚡ **A premium, high-fidelity web experience** blending Japanese minimalism with aggressive device-specific storytelling. Built for users who value design integrity over convenience.

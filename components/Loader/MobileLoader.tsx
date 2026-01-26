@@ -46,9 +46,7 @@ const MobileLoader = () => {
       <div className="w-full max-w-xs flex flex-col items-center">
         {/* The Bubble */}
         <div className="relative capitalize bg-white text-black px-6 py-3 rounded-2xl font-bold text-sm text-center shadow-[0_0_20px_rgba(255,255,255,0.3)] mb-8 animate-pulse">
-          {/* Compressing Developer&apos;s Ego to fit screen... */}
-          Compression de l&apos;Égo du Développeur pour ajuster à
-          l&apos;écran...
+          Compressing Developer&apos;s Ego to fit screen...
           {/* Triangle tip for the bubble */}
           <div className="absolute -bottom-2 left-1/2 -translate-x-1/2 w-0 h-0 border-l-[10px] border-l-transparent border-r-[10px] border-r-transparent border-t-[10px] border-t-white"></div>
         </div>
@@ -67,8 +65,7 @@ const MobileLoader = () => {
         </div>
 
         <div className="mt-2 text-white/70 text-[10px] uppercase tracking-widest animate-pulse">
-          {/* Optimizing Layout Chaos */}
-          Optimisation du Chaos de Mise en Page...
+          Optimizing Layout Chaos
         </div>
       </div>
     </div>

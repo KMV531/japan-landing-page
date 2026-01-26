@@ -15,7 +15,8 @@ const roboto = Roboto({
 });
 
 // URL canonique - à adapter selon l'environnement
-const canonicalUrl = process.env.NEXT_PUBLIC_SITE_URL || "";
+const canonicalUrl =
+  process.env.NEXT_PUBLIC_SITE_URL || "https://nihon-alpha.vercel.app";
 
 export const metadata: Metadata = {
   title: "Japan: Immersion in the Land of the Rising Sun",
